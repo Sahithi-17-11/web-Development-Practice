@@ -1,0 +1,13 @@
+.f {
+    float : left;
+    padding: 10px;
+    margin : 10px;
+}
+.s {
+    float : right;
+    padding: 10px;
+}
+.first {
+    padding-top : 10px;
+    margin: 10px;
+}
