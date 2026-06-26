@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(37, 33, 4, 0.104);
+    padding: 0px 100px;
+    color:rgb(160, 96, 96);
+}
+h1{
+    padding-left:10px;
+    color: rgba(242, 121, 7, 0.864);
+}
+.first img {
+    float: left;
+    width:475px;
+    margin: 5px 15px 5px 5px;
+}
+.first {
+    
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.second {
+    padding-top: 2px;
+    clear: both;
+}
+a:visited{
+    color: darkseagreen;
+}
+.second li{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+hr{
+    border: 3px solid rgba(135, 76, 17, 0.466);
+}
