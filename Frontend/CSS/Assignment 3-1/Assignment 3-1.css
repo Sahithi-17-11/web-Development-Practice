@@ -1,0 +1,49 @@
+.cities{
+    background-color: rgb(16, 16, 203);
+    color: white;
+    text-align: center;
+    padding: 100px 100px 300px 100px;
+}
+ul{
+    display: inline-block;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+h1 {
+    font-style:italic;
+    font-size: 50px;
+}
+#Hyderabad{
+    background-color: rgb(16, 16, 203);
+    color: white;
+    padding: 20px 50px 300px 50px;
+}
+#Bangalore{
+    padding: 20px 50px 300px 50px;
+    background-color:rgb(16, 16, 203);;
+    color: white;
+}
+#Chennai{
+    background-color: rgb(16, 16, 203);
+    color: white;
+    padding: 20px 50px 300px 50px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width:430px;
+    height:230px
+}
+p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-style: oblique;
+}
