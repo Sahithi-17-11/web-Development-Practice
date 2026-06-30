@@ -1,0 +1,44 @@
+body{
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.29rem;
+}
+form{
+    background-image: linear-gradient(to top,rgb(35, 35, 181)
+    ,rgba(196, 10, 159, 0.685),rgb(35, 35, 181)); 
+    color: white;
+    width: 700px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 10px 20px 10px 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.Name,.add{
+    display: flex;
+    gap: 20px;
+}
+.firstName,
+.lastName,
+.one,
+.five{
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.Phone{
+    display:flex;
+    flex-direction: column;
+}
+.Phone input{
+    box-sizing: border-box;
+    margin: 10px 20px 10px 20px;
+}
