@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+}
+.one h2{
+    padding-top: 5px;
+    font-size: clamp(0.5rem,3vw,1.2rem);
+}
+.two{
+    margin-left: auto;
+}
+.two a{
+    text-decoration: none;
+    color: rgb(80, 220, 202);
+    padding: 10px;
+    font-size: clamp(0.5rem,2.3vw,1rem);
+}
+.middle{
+    background-color: rgb(80, 220, 202);
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: white;
+}
+.middle img{
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+.middle h1{
+    margin-bottom: 10px;
+    font-size: clamp(1rem,5vw,2rem);
+}
+.middle p{
+    font-size: clamp(1rem,5vw,1.23rem);
+}
+.bottom{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bottom .cell{
+    flex: 1;
+    padding: 20px;
+}
+.bottom .cell img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+}
+.bottom .cell h3{
+    padding: 17px 2px;
+    margin: 10px 5px;
+    font-size: clamp(1rem,5vw,1.25rem);
+}
+.bottom .cell p{
+    padding: 5px 10px;
+    font-size: clamp(1rem,5vw,1.05rem);
+    line-height: 1.2rem;
+}
+@media screen and (max-width:768px){
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+}
