@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.divisions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.one{
+    flex: 1 1 200px;
+    padding: 2%;
+}
+@media screen and (min-width:450px) and (max-width:992px){
+    .divisions{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+    }
+}
