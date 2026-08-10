@@ -4,7 +4,7 @@ Consider the following string: aaaabbababababbbbabababaaaa Find the frequency of
 let str = "aaaabbababababbbbabababaaaa";
 let a = 0, b = 0;
 for (let i = 0; i < str.length; i++) {
-    if (str.charAt(i) == 'a')a++;
+    if (str.charAt(i) === 'a')a++;
     else b++;
 }
 console.log(`Frequency of a : ${a}`)
@@ -16,6 +16,6 @@ Write a function that receives a string of multiple words as an argument and the
 let input = "how are you all"
 let count = 1;
 for (let v of input) {
-    if (v == ' ')count++;
+    if (v === ' ')count++;
 }
 console.log(`Number of words in string ${count}`)
