@@ -1,5 +1,4 @@
 
-
 document.getElementById("app").innerHTML = `
     <h3>Synchronous (happens in sequence, one after the other):</h3>
 
