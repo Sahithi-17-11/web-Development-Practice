@@ -1,0 +1,20 @@
+.user-card{
+  border: 1px solid wheat;
+  margin: 20px;
+  padding: 20px;
+  width: 190px;
+}
+.page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn{
+  gap: 10px;
+  background-color: greenyellow;
+}
+.second {
+  display: flex;
+  gap: 20px;
+  
+}
