@@ -1,0 +1,23 @@
+.group{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.terms {
+  display: flex;
+  flex-direction: row;
+}
+.flo{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.in {
+  width: 300px;
+  max-width: 100%;
+}
+p{
+  color: red;
+}
